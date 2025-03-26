@@ -1,14 +1,10 @@
 {
-	"name": "test",
+	"name": "playwright-test",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"cucumber": "cucumber-js --config config/cucumber.js"
-	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "GBursali",
+	"license": "GPL-2.0-only",
 	"devDependencies": {
 		"@playwright/test": "^1.51.1",
 		"@types/node": "^22.13.11",
