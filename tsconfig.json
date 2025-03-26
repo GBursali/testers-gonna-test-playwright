@@ -1,0 +1,18 @@
+{
+	"ts-node": {
+		"require": ["tsconfig-paths/register"]
+	},
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "CommonJS",
+		"strict": true,
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"baseUrl": "./",
+		"paths": {
+			"@utils/*": ["./utils/*"]
+		}
+	},
+	"include": ["tests", "utils/hooks.ts"],
+	"exclude": ["node_modules"]
+}
