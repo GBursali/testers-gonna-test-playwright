@@ -1,7 +1,6 @@
 import { Given, Then, When } from "@cucumber/cucumber";
-import { expect } from "@playwright/test";
 import { page } from "@utils/hooks";
-import { navigate, waitForPageLoad } from "@utils/navigations";
+import { navigate } from "@utils/navigations";
 import { HomePage } from "tests/pages/homepage";
 
 Given(
