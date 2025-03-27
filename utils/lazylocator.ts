@@ -10,6 +10,9 @@ export class LazyLocator {
 	static fromLabel = (locator: string) =>
 		LazyLocator.of(p => p.getByLabel(locator, { exact: true }));
 
+	static fromTitle = (title: string) =>
+		LazyLocator.of(p => p.getByTitle(title, { exact: true }));
+
 	locate: (page: Page) => Locator;
 	constructor(locateFn: (page: Page) => Locator) {
 		this.locate = locateFn;

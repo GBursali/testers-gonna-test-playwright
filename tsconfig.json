@@ -10,7 +10,8 @@
 		"outDir": "dist",
 		"baseUrl": "./",
 		"paths": {
-			"@utils/*": ["./utils/*"]
+			"@utils/*": ["./utils/*"],
+			"@pages/*": ["./tests/pages/*"]
 		}
 	},
 	"include": ["tests", "utils/hooks.ts"],
